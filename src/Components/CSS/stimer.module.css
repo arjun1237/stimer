@@ -1,0 +1,113 @@
+.container{
+    background-color: #19293b;
+    color: white;
+    width: 600px;
+    height: 250px;
+    border: 1px solid #19293b;
+}
+
+.container button{
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    background-color: #19293b;
+    color: white;
+}
+
+.container button:active{
+    background-color: #263e58;
+}
+
+ul.list-style-none{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    background-color: #3d5a7a;
+}
+
+ul.list-style-none > li{
+    flex: 50%;
+    padding: 12px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+ul.list-style-none > li:active{
+    background-color: #263e58;
+}
+
+.text-mute{
+    color: #7a7a7a
+}
+
+ul.list-style-none > li:first-child{
+    border-right: 1px solid black;
+}
+
+.active-list{
+    background-color: #19293b;
+}
+
+.btn-container{
+    text-align: left;
+    padding: 5px 8px;
+    background-color: #3d5a7a;
+}
+
+.btn-container > button{
+    margin: 6px;
+    padding: 8px 10px;
+    letter-spacing: 1px;
+    width: 100px;
+}
+
+.time-container{
+    height: 152px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 60%;
+    text-align: left;
+}
+
+.stopwatch{
+    margin: 0 10px 15px;
+}
+
+.big-text{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.mid-text{
+    font-size: 25px;
+}
+
+.stopwatch > div{
+    display: inline;
+}
+
+.stopwatch > div > span{
+    margin-right: 2px;
+    display: inline-block;
+    width: 28px;
+}
+
+.special-span{
+    width: 15px !important;
+}
+
+.edit-mode{
+    border-bottom: 1px solid lightslategray;
+}
+
+.edit-mode-2{
+    border-right: 1px solid white;
+    animation: mymove 0.6s infinite;
+}
+
+@keyframes mymove {
+    0%   {border-right: 1px solid #ffffff9b}
+    100% {border-right: 1px solid #ffffff00}
+}
