@@ -2,9 +2,6 @@ import React, {Component} from 'react'
 import styles from './CSS/stimer.module.css'
 
 export default class Stopwatch extends Component{
-    constructor(props){
-        super(props)
-    }
 
     calcTime(){
         let secs = this.props.secs
